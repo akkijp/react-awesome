@@ -6,7 +6,7 @@
 
 "use strict";
 
-var pkgPath = require.resolve('../../../package.json'); // Your project package.json path.
+var pkgPath = require.resolve('../package.json'); // Your project package.json path.
 
 var fs = require('fs'),
     util = require('util'),

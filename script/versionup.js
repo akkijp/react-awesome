@@ -7,7 +7,7 @@
 "use strict";
 
 
-var filename = require.resolve('../../../package.json'),  //Your project package.json path.
+var filename = require.resolve('../package.json'),  //Your project package.json path.
     async = require('async'),
     fs = require('fs');
 
